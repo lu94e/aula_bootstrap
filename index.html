@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +9,75 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Minha página</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light margin">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img src="imagens/orbi.svg" width="220" height="80" alt="logo orbi">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Quem somos ?</a>
+                    <a class="nav-link" aria-current="page" href="#quemsomos">Quem somos ?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Parceiros</a>
+                    <a class="nav-link" aria-current="page" href="#parceiros">Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Serviços</a>
+                    <a class="nav-link" aria-current="page" href="#servicos">Serviços</a>
                 </li>
             </ul>
         </div>
     </nav>
+
     <section id="quemsomos">
         <div class="container-fluid quem-somos text-center margin">
             <h3 class="margin">Quem somos</h3>
-            <img src="imagens/pexels-pixabay-270637.jpg" class="rounded-circle" width="400" height="400" alt="">
+            <img src="imagens/pexels-pixabay-270637.jpg" class="rounded-circle" width="400" height="400" alt="imagem ilustrativa SEO">
             <h3>Somos um time comprometido com os resultados.</h3>
         </div>
     </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="imagens/logo-dio.svg" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="imagens/logo-dio.svg" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="imagens/logo-dio.svg" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente iure minus sit! Optio esse perspiciatis sequi, corporis quibusdam voluptates labore dolore? Itaque reiciendis in deleniti fugit quia delectus praesentium!</p>
+                        <img src="imagens/pexels-photomix-company-887751.jpg" width="100%" alt="imagem ilustrativa">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta libero labore quaerat magnam deleniti, tempore blanditiis ipsa asperiores deserunt dolores alias, voluptatem, quis voluptas doloremque! Dolorem aliquid aspernatur quasi.</p>
+                        <img src="imagens/pexels-pixabay-39284.jpg" width="100%" alt="imagem ilustrativa">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Lucas Santana</p>
+    </footer>
 </body>
 </html>
